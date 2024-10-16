@@ -8,5 +8,5 @@ launchBrowser
     Open Browser    ${appURL}    ${appBrowser}
     Maximize Browser Window
     ${title}=    Get Title
-    [Return]    ${title}
+    RETURN    ${title}
 
